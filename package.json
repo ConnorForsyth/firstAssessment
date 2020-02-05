@@ -1,0 +1,20 @@
+{
+  "name": "learn-travis-CONNOR",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "CONNOR",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "jshintConfig": {
+  "undef": true,
+  "unused": true,
+  "esversion": 6,
+  "globals": {
+    "MY_GLOBAL": true,
+	"$": true
+  },
+  "scripts": {
+    "test": "jshint hello.js"
+  }
+}
