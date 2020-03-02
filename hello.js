@@ -9,7 +9,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 //Question 1A
 var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-//alert("The names of the contestants are " + celebrityNames.toString());
+console.log("The names of the contestants are " + celebrityNames.toString());
 
 
 //Question 1B
@@ -18,7 +18,7 @@ for (let i = 0; i < beetles.length; i++){
     beetles[i] = parseInt(Math.random()*1001);
 }
 
-//alert(beetles.toString());
+console.log(beetles.toString());
 
 var min = beetles[0];
 var personIndex = 0;
@@ -28,12 +28,12 @@ for (let i = 0; i < beetles.length; i++){
         min = beetles[i];
         personIndex = i;       
     }
-    //alert(personIndex);
+    console.log(personIndex);
 }
 
-//alert("The minimum number of beetles is " + min + " consumed by " + celebrityNames[personIndex] + "\nThat person is eliminated.");
+console.log("The minimum number of beetles is " + min + " consumed by " + celebrityNames[personIndex] + "\nThat person is eliminated.");
 celebrityNames.splice(personIndex,1);
-alert(celebrityNames);
+console.log(celebrityNames);
 
 function makeBeetleArray(){
     var anArray= new Array(names.length);
