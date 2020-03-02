@@ -36,7 +36,7 @@ celebrityNames.splice(personIndex,1);
 console.log(celebrityNames);
 
 function makeBeetleArray(){
-    var anArray= new Array(names.length);
+    var anArray= new Array(celebrityNames.length);
     for (let i = 0; i < anArray.length; i++){
         anArray[i] = parseInt(Math.random()*1001);
     }
@@ -69,7 +69,7 @@ function removeLowestElement(nameArray, numberArray){
     return nameArray;
 }
 
-var secondRoundContestants = removeLowestElement(names, beetles);
+var secondRoundContestants = removeLowestElement(celebrityNames, beetles);
 
 
 
