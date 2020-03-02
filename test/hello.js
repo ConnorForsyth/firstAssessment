@@ -1,9 +1,9 @@
 'use strict';
 var expect = require('chai').expect;
 
-describe('testVar', function()  {
-  it('variable should be equal to 2', function() {
-      expect(testVar).to.not.be.empty;
-      expect(testVar).to.equal(2);
+describe('hello.js exists', function()  {
+  it('should exist', function() {
+      var HelloJS = require('../hello.js');
+      expect(HelloJS).to.not.be.undefined;
   });
 });
