@@ -35,21 +35,6 @@ for (let i = 0; i < beetles.length; i++){
 }
 
 console.log("The minimum number of beetles is " + min + " consumed by " + celebrityNames[personIndex] + "\nThat person is eliminated.");
-celebrityNames.splice(personIndex,1);
-console.log(celebrityNames);
-
-function makeBeetleArray(){
-    var anArray= new Array(celebrityNames.length);
-    for (let i = 0; i < anArray.length; i++){
-        anArray[i] = parseInt(Math.random()*1001);
-    }
-    return anArray
-}
-
-var beetles = makeBeetleArray();
-
-console.log("-------------------------------------------------------");
-console.log("The number of beetles eaten by each contestant are [" + beetles.toString() + "]\n");
 
 function removeLowestElement(nameArray, numberArray){
 
