@@ -10,6 +10,6 @@ describe('hello.js exists', function()  {
 describe('check variable', function()	{
 	it('should return an array with 5 specific names', function()	{
 		var expectedInput = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"] 
-]		expect(HelloJS.testVar).to.equal(2);
+		expect(HelloJS.testVar).to.equal(2);
 	});
 });
