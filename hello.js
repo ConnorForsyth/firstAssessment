@@ -12,11 +12,11 @@ var expect = require('chai').expect;
 
 //Basic test to check mocha is running as intended
 
-describe('testVar', function()  {
+/*describe('testVar', function()  {
   it('should contain the string hello world', function() {
       var testVar = "hello world";
       expect(testVar).to.not.be.undefined;
       expect(testVar).to.equal.('hello world');
   });
-});
+});*/
 
