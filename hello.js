@@ -8,4 +8,5 @@ http.createServer(function (req, res) {
 console.log('Server running at http://127.0.0.1:1337/');
 
 //Basic test to check mocha is running as intended
-var testVar = 1;
+var testVar = 2;
+
