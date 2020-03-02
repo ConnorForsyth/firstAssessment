@@ -13,7 +13,6 @@
     "gulp-connect": "^2.0.5"
   },
   "scripts": {
-    "test": "jshint hello.js",
-    "test": "make test"
+    "test": "jshint hello.js"   
   }
 }
