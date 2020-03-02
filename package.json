@@ -9,7 +9,6 @@
     "mocha": "*"
   },
   "scripts": {
-    "test": "jshint hello.js",
-    "test": "mocha"
+    "test": "jshint hello.js"   
   }
 }
