@@ -10,6 +10,7 @@
   },
   "scripts": {
     "test": "jshint hello.js",
+    "start": "node hello.js",
     "test": "mocha --reporter=nyan test/hello.js"
   }
 }
