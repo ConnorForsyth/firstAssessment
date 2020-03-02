@@ -9,7 +9,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 //Question 1A
 var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-var testQuestion1A = celebrityNames;
+var testQuestion1A = celebrityNames.slice();
 console.log("The names of the contestants are " + celebrityNames.toString());
 
 //If you would like to test your answers for questions 1A, you will need to declare the variables in this export function
