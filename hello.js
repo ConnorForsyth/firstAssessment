@@ -11,6 +11,8 @@ console.log('Server running at http://127.0.0.1:1337/');
 var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
 console.log("The names of the contestants are " + celebrityNames.toString());
 
+//If you would like to test your answers for questions 1A, you will need to declare the variables in this export function
+module.exports.celebrityNames = celebrityNames;
 
 //Question 1B
 var beetles = new Array(celebrityNames.length);
@@ -70,11 +72,3 @@ function removeLowestElement(nameArray, numberArray){
 }
 
 var secondRoundContestants = removeLowestElement(celebrityNames, beetles);
-
-
-
-
-
-
-//If you would like to test your answers for questions 1A, you will need to declare the variables in this export function
-module.exports.celebrityNames = celebrityNames;
