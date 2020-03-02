@@ -9,7 +9,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 //Question 1A
 var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-alert("The names of the contestants are " + celebrityNames.toString());
+//alert("The names of the contestants are " + celebrityNames.toString());
 
 
 //Question 1B
@@ -31,7 +31,7 @@ for (let i = 0; i < beetles.length; i++){
     //alert(personIndex);
 }
 
-alert("The minimum number of beetles is " + min + " consumed by " + celebrityNames[personIndex] + "\nThat person is eliminated.");
+//alert("The minimum number of beetles is " + min + " consumed by " + celebrityNames[personIndex] + "\nThat person is eliminated.");
 celebrityNames.splice(personIndex,1);
 alert(celebrityNames);
 
