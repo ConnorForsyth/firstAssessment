@@ -10,7 +10,7 @@ describe('hello.js exists', function()  {
 describe('check variable', function()	{
 	it('should return an array with 5 specific names', function()	{
 		var expectedInput = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-		var actualInput = HelloJS.testVar(expectedInput);
-		expect(HelloJS.testVar).to.equal(2);
+		var actual = HelloJS.question1A();
+		expect(actual).to.eql(expectedInput);
 	});
 });
