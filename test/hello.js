@@ -1,7 +1,7 @@
 'use strict';
 var expect = require('chai').expect;
 const HelloJS = require('../hello.js');
-var celebNames = HelloJS.celebrityNames;
+var celebNames = HelloJS.testQuestion1A;
 
 describe('hello.js exists', function()  {
   it('should exist', function() {
