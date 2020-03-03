@@ -8,9 +8,9 @@ http.createServer(function (req, res) {
 console.log('Server running at http://127.0.0.1:1337/');
 
 
-//Enable testing 
-module.exports.testing = true;
-
+//Enable testing
+//If you do not want to test your code change this variable to false
+module.exports.testing = false;
 
 //Question 1A
 //Zed
