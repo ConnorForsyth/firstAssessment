@@ -10,7 +10,7 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 //Enable testing
 //If you do not want to test your code change this variable to false
-module.exports.testing = false;
+module.exports.testing = true;
 
 //Question 1A
 //Zed
