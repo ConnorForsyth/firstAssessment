@@ -7,6 +7,11 @@ http.createServer(function (req, res) {
 }).listen(1337, '127.0.0.1');
 console.log('Server running at http://127.0.0.1:1337/');
 
+
+//Enable testing 
+module.exports.testing = true;
+
+
 //Question 1A
 //Zed
 var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des"];
