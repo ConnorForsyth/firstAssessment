@@ -14,7 +14,7 @@ module.exports.testing = false;
 
 //Question 1A
 //Zed
-var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des"];
+var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
 var testQuestion1A = celebrityNames.slice();
 console.log("The names of the contestants are " + celebrityNames.toString());
 
