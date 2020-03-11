@@ -9,11 +9,12 @@ console.log('Server running at http://127.0.0.1:1337/');
 
 
 //Enable testing
-//If you do not want to test your code change this variable to false
-module.exports.testing = true;
+//Here you can able testing for the various questions you will attempt
+//To test set the variable to true, otherwise set to false
+module.exports.question1aTest = true;
+module.exports.question1bTest = false;
 
 //Question 1A
-//Zed
 var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
 var testQuestion1A = celebrityNames.slice();
 console.log("The names of the contestants are " + celebrityNames.toString());
