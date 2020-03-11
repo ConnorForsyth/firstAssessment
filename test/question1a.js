@@ -16,8 +16,22 @@ if(testingEnabled === true)
 			var question1a = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"].map(v => v.toLowerCase());
 			celebNames = celebNames.map(v => v.toLowerCase());
 			var questionScore = 0;
-			if(expect(celebNames).to.eql(question1a)){questionScore=2;}
-			else{questionScore = 0;}
+			
+			//Let's now check the array to determine the marks given
+			//First check for whether it is an array or not
+			if((Array.isArray[celebNames] === true) && (celebNames.length > 0))
+			{
+			  questionScore = questionScore + 4;
+			  console.log("You sucessfully created and populated an array, for this you got " + questionScore + " marks");
+			}
+			else if((Array.isArray[celebNames] === true) && (celebNames.length = 0))
+			{
+			  questionScore = questionScore + 1;
+			  console.log("You sucessfully created an array, however you need to populate the array with the names of the celebrities in the question.");
+			}
+			else{}
+			
+			if(expect(celebNames).to.eql(question1a)){questionScore=questionScore+1;}
 			expect(celebNames).to.eql(question1a)
 			console.log("You got " + questionScore + " point(s) for this question");
 		});
