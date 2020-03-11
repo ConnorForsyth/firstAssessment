@@ -20,7 +20,7 @@ if(testingEnabled === true)
 			//Let's now check the array to determine the marks given
 			//First check for whether it is an array or not
 			//The array is actually passed in as an object so we will check typeof instead
-			if((typeof celebNames == 'object') && (celebNames.length =>2 ))
+			if((typeof celebNames == 'object') && (celebNames.length >=2 ))
 			{
 			  questionScore = questionScore + 4;
 			  console.log("You sucessfully created and populated an array, for this you got " + questionScore + " marks");
