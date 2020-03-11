@@ -11,6 +11,7 @@
   "scripts": {
     "test": "jshint hello.js",
     "test": "mocha test/question1a.js",
+    "test": "mocha test/question1b.js",
     "test": "mocha --exit"
   }
 }
