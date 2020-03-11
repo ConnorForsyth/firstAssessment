@@ -33,7 +33,7 @@ if(testingEnabled === true)
 			else{console.log("Logic wrong");}
 			
 			if(expect(celebNames).to.eql(question1a)){questionScore=questionScore+1;}
-			console.log("	You got " + questionScore + " point(s) for this question");
+			console.log("	You got " + questionScore + "/5 for this question");
 			expect(celebNames).to.eql(question1a);
 		});
 	});
