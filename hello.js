@@ -16,7 +16,7 @@ module.exports.question1bTest = false;
 
 //Question 1A
 //var celebrityNames = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-var celebrityNames = [];
+var celebrityNames = ["Flash"];
 var testQuestion1A = celebrityNames.slice();
 console.log("The names of the contestants are " + celebrityNames.toString());
 
