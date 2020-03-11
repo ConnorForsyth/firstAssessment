@@ -3,7 +3,7 @@ var expect = require('chai').expect;
 const HelloJS = require('../hello.js');
 const testingEnabled = HelloJS.testing;
 var celebNames = HelloJS.testQuestion1A;
-
+var counter = 0;
 if(testingEnabled === true)
 {
 	describe('hello.js exists', function()  {
@@ -15,9 +15,13 @@ if(testingEnabled === true)
 	describe('Question 1A - Array created with the celebrities names', function()	{
 		it('Names array should contain Flash, Anne, Chelsee, Corrie, Des and Zed', function()	{
 			var question1a = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-			var counter = 0;
+			var questionScore = 0;
+			if(expect(celebNames).to.eql(question1a)){questionScore=2;}
+			else{questionScore = 0;}
+			expect(celebNames).to.eql(question1a)
+			console.log("You got " + counter + " point(s) for this question");
+			counter = counter + questionScore;
 			console.log("Your score is currently: " + counter);
-			expect(celebNames).to.eql(question1a);
 
 		});
 	});
