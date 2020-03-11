@@ -14,9 +14,8 @@ if(testingEnabled === true)
 
 	describe('Question 1A - Array created with the celebrities names', function()	{
 		it('Names array should contain Flash, Anne, Chelsee, Corrie, Des and Zed', function()	{
-			var question1a = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"];
-			var words = ['Foo','Bar','Fizz','Buzz'].map(v => v.toLowerCase());
-			console.log(words);
+			var question1a = ["Flash", "Anne", "Chelsee", "Corrie", "Des", "Zed"].map(v => v.toLowerCase());
+			celebNames = celebNames..map(v => v.toLowerCase());
 			var questionScore = 0;
 			if(expect(celebNames).to.eql(question1a)){questionScore=2;}
 			else{questionScore = 0;}
