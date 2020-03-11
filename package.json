@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "jshint hello.js",
-    "test": "mocha test/hello.js",
+    "test": "mocha test/question1a.js",
     "test": "mocha --exit"
   }
 }
