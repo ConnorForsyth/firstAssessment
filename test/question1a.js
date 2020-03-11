@@ -29,7 +29,7 @@ if(testingEnabled === true)
 			  questionScore = questionScore + 1;
 			  console.log("You sucessfully created an array, however you need to populate the array with the names of the celebrities in the question.");
 			}
-			else{}
+			else{console.log("Logic wrong");}
 			
 			if(expect(celebNames).to.eql(question1a)){questionScore=questionScore+1;}
 			expect(celebNames).to.eql(question1a)
