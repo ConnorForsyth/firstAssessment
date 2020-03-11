@@ -20,12 +20,12 @@ if(testingEnabled === true)
 			//Let's now check the array to determine the marks given
 			//First check for whether it is an array or not
 			//The array is actually passed in as an object so we will check typeof instead
-			if((typeof celebNames == 'object') && (celebNames.length > 0))
+			if((typeof celebNames == 'object') && (celebNames.length =>2 ))
 			{
 			  questionScore = questionScore + 4;
 			  console.log("You sucessfully created and populated an array, for this you got " + questionScore + " marks");
 			}
-			else if((typeof celebNames == 'object') && (celebNames.length = 0))
+			else if((typeof celebNames == 'object') && (celebNames.length <2))
 			{
 			  questionScore = questionScore + 1;
 			  console.log("You sucessfully created an array, however you need to populate the array with the names of the celebrities in the question.");
@@ -33,8 +33,8 @@ if(testingEnabled === true)
 			else{console.log("Logic wrong");}
 			
 			if(expect(celebNames).to.eql(question1a)){questionScore=questionScore+1;}
-			expect(celebNames).to.eql(question1a)
 			console.log("You got " + questionScore + " point(s) for this question");
+			expect(celebNames).to.eql(question1a);
 		});
 	});
 }
