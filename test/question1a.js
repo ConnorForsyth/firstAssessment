@@ -19,16 +19,16 @@ if(testingEnabled === true)
 			
 			//Let's now check the array to determine the marks given
 			//First check for whether it is an array or not
-			if((Array.isArray[celebNames] === true) && (celebNames.length > 0))
+			if((Array.isArray[celebNames] === true))
 			{
 			  questionScore = questionScore + 4;
 			  console.log("You sucessfully created and populated an array, for this you got " + questionScore + " marks");
 			}
-			else if((Array.isArray[celebNames] === true) && (celebNames.length = 0))
+			/*else if((Array.isArray[celebNames] === true) && (celebNames.length = 0))
 			{
 			  questionScore = questionScore + 1;
 			  console.log("You sucessfully created an array, however you need to populate the array with the names of the celebrities in the question.");
-			}
+			}*/
 			else{console.log("Logic wrong");}
 			
 			if(expect(celebNames).to.eql(question1a)){questionScore=questionScore+1;}
