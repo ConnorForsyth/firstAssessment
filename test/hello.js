@@ -19,7 +19,7 @@ if(testingEnabled === true)
 			if(expect(celebNames).to.eql(question1a)){questionScore=2;}
 			else{questionScore = 0;}
 			expect(celebNames).to.eql(question1a)
-			console.log("You got " + counter + " point(s) for this question");
+			console.log("You got " + questionScore + " point(s) for this question");
 			counter = counter + questionScore;
 			console.log("Your score is currently: " + counter);
 
